@@ -1,0 +1,26 @@
+{
+  "name": "next-abstract-dom-selector",
+  "description": "An abstract dom selector",
+  "main": "dist/next-abstract-dom-selector.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-abstract-dom-selector",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "build",
+    "gulpfile.js"
+  ]
+}
