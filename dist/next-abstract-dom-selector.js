@@ -6,9 +6,10 @@
   var NxAbstractDomSelector = nx.declare('nx.AbstractDomSelector', {
     statics: nx.mix(nxStubSingleton(), {
       qsa: function(inSelector, inContext) {
+        var instance = this.getInstance();
         var context = inContext || document;
-        nx.mix(this.instance, { selector: inSelector, context: context });
-        return this.instance.select();
+        nx.mix(instance, { selector: inSelector, context: context });
+        return instance.select();
       }
     }),
     methods: {
